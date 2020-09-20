@@ -6,7 +6,7 @@ module.exports = {
     description: "Returns a meme",
     category: "games",
     async execute(bot, message) {
-        const data = await fetch("https://meme-api.herokuapp.com/gimme").then(res => res.json());
+        const data = await fetch("").then(res => res.json());
 
         const embed = new MessageEmbed()
             .setFooter(message.author.username)
